@@ -4,20 +4,31 @@
 }
 
 .logo {
-    width: 23%;
+    width: 30%;
     padding: 1%;
-    text-align: center;
+    align-items: center;
 
 }
 
 nav {
-    width: 73%;
-    padding: 1%
+    padding: 1%;
+    display: inline-block;
+    text-align: center;
+
 }
 
 ul {
-    width: 50%;
     margin-left: auto;
+    list-style: none;
+    display: inline-block;
+
+}
+
+li {
+    display: inline-block;
+    font-size: 24;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .heroImg {
@@ -25,12 +36,12 @@ ul {
     padding: 25px;
 }
 
-p {
-    width: 500px;
+.content {
+    width: 1000px;
     margin: 0 auto;
 }
 
 footer {
-    background-color: #373738;
-
+    background-color: #ffffff;
+    margin-top: 100px;
 }
